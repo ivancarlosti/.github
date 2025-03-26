@@ -48,6 +48,6 @@ GitHub will use and display **these files** as defaults **for any** repository o
 [it]: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser
 [prt]: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
 [funding]: https://docs.github.com/en/articles/displaying-a-sponsor-button-in-your-repository
-[muravjev]: https://github.com/muravjev
-[buymeacoffee]: https://www.buymeacoffee.com/muravjev
-[paypal]: https://www.paypal.me/muravjev
+[ivancarlos]: https://ivancarlos.me
+[buymeacoffee]: https://www.buymeacoffee.com/ivancarlos
+[paypal]: https://icc.gg/paypal
