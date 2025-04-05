@@ -1,15 +1,8 @@
-## Reporting a Vulnerability
-
-If you believe you’ve found a security issue in any software, service, or
-website governed by [**ivancarlos**][ivancarlos], please report to ivan@ivancarlos.com.br as soon as it is discovered.
-
-[ivancarlos]: https://ivancarlos.me
-
 # Security Guidelines
 
 ## How we manage security for this project
 
-We take security seriously and want to ensure that we maintain a secure environment for everyone, and that we also provide secure solutions for the open-source community. To help us achieve these goals, please note the following before using this software:
+We take security seriously and want to ensure that we maintain a secure environment for everyone, and that we also provide secure solutions for commercial clients and the open-source community. To help us achieve these goals, please note the following before using this software:
 
 - Review the software license to understand our obligations in terms of warranties and suitability for purpose
 - For any questions or concerns about security, you can reach out directly to us at ivan@ivancarlos.com.br
@@ -23,7 +16,7 @@ We take security seriously and want to ensure that we maintain a secure environm
 
 If you find a security bug in this repository, please work us following responsible disclosure principles and these guidelines: 
 
-- Do not submit a normal issue or pull request in our public repository, instead report through our Bug Bounty or directly to ivan@ivancarlos.com.br (If you would like to encrypt, please see the end of these guidelines)
+- Do not submit a normal issue or pull request in our public repository, instead report through our Bug Bounty or directly to ivan@ivancarlos.com.br (If you would like report anonimally, please report an incident security from [here](https://suporte.ivancarlos.com.br/hc/en-us/requests/new?ticket_form_id=14037905372301) or check secure communication platforms like Signal or Telegram [here](https://ivancarlos.me))
 - We will review your submission and may follow up for additional details
 - If you have a patch, we will review it and approve it privately; once approved for release you can submit it as a pull request publicly in our repos (we give credit where credit is due)
 - We will keep you informed during our investigation, feel free to check in for a status update
@@ -33,7 +26,3 @@ If you find a security bug in this repository, please work us following responsi
 ## Contact
 
 If you have any questions, please reach out directly to us at ivan@ivancarlos.com.br.
-
-## Credits
-
-This Security policy is adapted from [`jet/template/SECURITY.md`](https://github.com/jet/template/blob/master/SECURITY.md).
