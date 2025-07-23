@@ -61,7 +61,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-(this form request)[https://suporte.ivancarlos.com.br/hc/requests/new?ticket_form_id=14017174834317) (social login required).
+[this form request](https://suporte.ivancarlos.com.br/hc/requests/new?ticket_form_id=14017174834317) (social login required).
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
