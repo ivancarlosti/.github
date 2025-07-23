@@ -36,6 +36,7 @@ GitHub will use and display **these files** as defaults **for any** repository o
 `Sponsor` button will be displayed for all repos except this one.\
 `License` file cannot be shared and should be put into each repo.
 
+<!-- footer -->
 ---
 
 ## 🧑‍💻 Consulting and technical support
