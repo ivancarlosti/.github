@@ -50,9 +50,7 @@ GitHub will use and display **these files** as defaults **for any** repository o
 |Thanks for your support, it is much appreciated!|
 
 ## 🌐 Connect with me
-[![Instagram](https://img.shields.io/badge/Instagram-@ivancarlos-E4405F)](https://instagram.com/ivancarlos)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@ivancarlos-0077B5)](https://www.linkedin.com/in/ivancarlos)
-[![Threads](https://img.shields.io/badge/Threads-@ivancarlos-808080)](https://threads.net/@ivancarlos)
 [![X](https://img.shields.io/badge/X-@ivancarlos-000000)](https://x.com/ivancarlos)  
 [![Discord](https://img.shields.io/badge/Discord-@ivancarlos.me-5865F2)](https://discord.com/users/ivancarlos.me)
 [![Signal](https://img.shields.io/badge/Signal-@ivancarlos.01-2592E9)](https://icc.gg/.signal)
