@@ -42,15 +42,13 @@ GitHub will use and display **these files** as defaults **for any** repository o
 
 ## 🧑‍💻 Consulting and technical support
 * For personal support and queries, please submit a new issue to have it addressed.
-* For commercial related questions, please contact me directly for consulting costs. 
+* For commercial related questions, please [**contact me**][ivancarlos] for consulting costs. 
 
 ## 🩷 Project support
 | If you found this project helpful, consider |
 | :---: |
 [**buying me a coffee**][buymeacoffee], [**donate by paypal**][paypal], [**sponsor this project**][sponsor] or just [**leave a star**](../..)⭐
 |Thanks for your support, it is much appreciated!|
-
-## 🌐 Connect with me, handles listed on [**ivancarlos.it**][ivancarlos]
 
 [cc]: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project
 [contributing]: https://docs.github.com/en/articles/setting-guidelines-for-repository-contributors
