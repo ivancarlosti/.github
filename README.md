@@ -51,16 +51,16 @@ GitHub will use and display **these files** as defaults **for any** repository o
 |Thanks for your support, it is much appreciated!|
 
 ## 🌐 Connect with me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-@ivancarlos-0077B5)](https://www.linkedin.com/in/ivancarlos)
-[![Reddit](https://img.shields.io/badge/Reddit-@ivandoomer-FF4500)](https://icc.gg/reddit)
+Microblogging: [![X](https://img.shields.io/badge/X-@ivancarlos-000000)](https://x.com/ivancarlos)
+[![Bluesky](https://img.shields.io/badge/Bluesky-@ivancarlos.it-3B99FC)](https://icc.gg/bluesky)  
+Social: [![LinkedIn](https://img.shields.io/badge/LinkedIn-@ivancarlos-0077B5)](https://www.linkedin.com/in/ivancarlos)
+[![Reddit](https://img.shields.io/badge/Reddit-@ivandoomer-FF4500)](https://icc.gg/reddit)  
+Group chat: [![Discord](https://img.shields.io/badge/Discord-@ivancarlos.it-5865F2)](https://icc.gg/discord)
+[![Teams](https://img.shields.io/badge/Teams-ivan@ivancarlos.com.br-6264A7)](https://icc.gg/teams)  
+Communication: [![Signal](https://img.shields.io/badge/Signal-@ivancarlos.01-3A5E7F)](https://icc.gg/signal)
 [![Telegram](https://img.shields.io/badge/Telegram-@ivancarlos-26A5E4)](https://t.me/ivancarlos)
-[![X](https://img.shields.io/badge/X-@ivancarlos-000000)](https://x.com/ivancarlos)  
-[![Bluesky](https://img.shields.io/badge/Bluesky-@ivancarlos.it-3B99FC)](https://icc.gg/bluesky)
-[![Discord](https://img.shields.io/badge/Discord-@ivancarlos.it-5865F2)](https://icc.gg/discord)
-[![Signal](https://img.shields.io/badge/Signal-@ivancarlos.01-3A5E7F)](https://icc.gg/signal)  
-[![Teams](https://img.shields.io/badge/Teams-ivan@ivancarlos.com.br-6264A7)](https://icc.gg/teams)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-005511981120666-25D366)](https://icc.gg/whatsapp)  
-[![Website](https://img.shields.io/badge/Website-ivancarlos.it-FF6B6B)](https://ivancarlos.it)
+Website: [![Website](https://img.shields.io/badge/Website-ivancarlos.it-FF6B6B)](https://ivancarlos.it)
 
 [cc]: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project
 [contributing]: https://docs.github.com/en/articles/setting-guidelines-for-repository-contributors
