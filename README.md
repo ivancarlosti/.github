@@ -52,13 +52,15 @@ GitHub will use and display **these files** as defaults **for any** repository o
 
 ## 🌐 Connect with me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@ivancarlos-0077B5)](https://www.linkedin.com/in/ivancarlos)
-[![X](https://img.shields.io/badge/X-@ivancarlos-000000)](https://x.com/ivancarlos)
+[![Reddit](https://img.shields.io/badge/Reddit-@ivandoomer-FF4500)](https://icc.gg/reddit)
 [![Telegram](https://img.shields.io/badge/Telegram-@ivancarlos-26A5E4)](https://t.me/ivancarlos)
-[![Reddit](https://img.shields.io/badge/Reddit-@ivandoomer-FF4500)](https://icc.gg/reddit)  
-[![Signal](https://img.shields.io/badge/Signal-@ivancarlos.01-3A5E7F)](https://icc.gg/signal)
-[![Discord](https://img.shields.io/badge/Discord-@ivancarlos.it-5865F2)](https://icc.gg/discord)
+[![X](https://img.shields.io/badge/X-@ivancarlos-000000)](https://x.com/ivancarlos)  
 [![Bluesky](https://img.shields.io/badge/Bluesky-@ivancarlos.it-3B99FC)](https://icc.gg/bluesky)
-[![Website](https://img.shields.io/badge/Website-ivancarlos.it-FF6B6B)](https://ivancarlos.it)
+[![Discord](https://img.shields.io/badge/Discord-@ivancarlos.it-5865F2)](https://icc.gg/discord)
+[![Signal](https://img.shields.io/badge/Signal-@ivancarlos.01-3A5E7F)](https://icc.gg/signal)
+[![Website](https://img.shields.io/badge/Website-ivancarlos.it-FF6B6B)](https://ivancarlos.it)  
+[![Teams](https://img.shields.io/badge/Teams-ivan@ivancarlos.com.br-6264A7)](https://icc.gg/teams)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-005511981120666-25D366)](https://icc.gg/whatsapp)
 
 [cc]: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project
 [contributing]: https://docs.github.com/en/articles/setting-guidelines-for-repository-contributors
