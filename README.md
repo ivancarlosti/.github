@@ -54,9 +54,9 @@ GitHub will use and display **these files** as defaults **for any** repository o
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@ivancarlos-0077B5)](https://www.linkedin.com/in/ivancarlos)
 [![X](https://img.shields.io/badge/X-@ivancarlos-000000)](https://x.com/ivancarlos)
 [![Telegram](https://img.shields.io/badge/Telegram-@ivancarlos-26A5E4)](https://t.me/ivancarlos)
-[![Discord](https://img.shields.io/badge/Discord-@ivancarlos.it-5865F2)](https://icc.gg/discord)  
-[![Reddit](https://img.shields.io/badge/Reddit-@ivandoomer-FF4500)](https://icc.gg/reddit)
-[![Bluesky](https://img.shields.io/badge/Bluesky-@ivancarlos.it-3B99FC?logo=bluesky&logoColor=white)](https://icc.gg/bluesky)
+[![Reddit](https://img.shields.io/badge/Reddit-@ivandoomer-FF4500)](https://icc.gg/reddit)  
+[![Discord](https://img.shields.io/badge/Discord-@ivancarlos.it-5865F2)](https://icc.gg/discord)
+[![Bluesky](https://img.shields.io/badge/Bluesky-@ivancarlos.it-3B99FC)](https://icc.gg/bluesky)
 [![Website](https://img.shields.io/badge/Website-ivancarlos.it-FF6B6B)](https://ivancarlos.it)
 
 [cc]: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project
