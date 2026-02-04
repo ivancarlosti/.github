@@ -17,6 +17,7 @@ GitHub will use and display **these files** as defaults **for any** repository o
 [![Security](https://img.shields.io/badge/Security-View%20Here-purple)](https://github.com/ivancarlosti/awssesconverter/security)
 [![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-2.1-4baaaa)](https://github.com/ivancarlosti/awssesconverter?tab=coc-ov-file)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/ivancarlosti?label=GitHub%20Sponsors&color=ffc0cb)][sponsor]
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00)][buymeacoffee]
 <!-- endbuttons -->
 
 ## Supported files
@@ -60,3 +61,4 @@ If you found this project helpful, consider [**buying me a coffee**][buymeacoffe
 [buymeacoffee]: https://www.buymeacoffee.com/ivancarlos
 [paypal]: https://icc.gg/donate
 [sponsor]: https://github.com/sponsors/ivancarlosti
+[buymeacoffee]: https://buymeacoffee.com/ivancarlos
