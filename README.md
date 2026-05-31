@@ -16,9 +16,7 @@ GitHub will use and display **these files** as defaults **for any** repository o
 [![License](https://img.shields.io/github/license/ivancarlosti/.github?label=License)](LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ivancarlosti/.github?label=Last%20Commit)](https://github.com/ivancarlosti/.github/commits)
 [![Security](https://img.shields.io/badge/Security-View%20Here-purple)](https://github.com/ivancarlosti/.github/security)
-[![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-2.1-4baaaa)](https://github.com/ivancarlosti/.github?tab=coc-ov-file)  
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/ivancarlosti?label=GitHub%20Sponsors&color=ffc0cb)][sponsor]
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00)][buymeacoffee]
+[![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-2.1-4baaaa)](https://github.com/ivancarlosti/.github?tab=coc-ov-file)
 <!-- endbuttons -->
 
 ## Supported files
