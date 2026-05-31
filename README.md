@@ -42,12 +42,7 @@ GitHub will use and display **these files** as defaults **for any** repository o
 
 ## 🧑‍💻 Consulting and technical support
 * For personal support and queries, please submit a new issue to have it addressed.
-* For commercial related questions, please [**contact me**][ivancarlos] for consulting costs. 
-
-| 🩷 Project support |
-| :---: |
-If you found this project helpful, consider [**buying me a coffee**][buymeacoffee]
-|Thanks for your support, it is much appreciated!|
+* For commercial related questions, please [**contact me**][ivancarlos] for consulting costs.
 
 [cc]: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project
 [contributing]: https://docs.github.com/en/articles/setting-guidelines-for-repository-contributors
@@ -57,7 +52,3 @@ If you found this project helpful, consider [**buying me a coffee**][buymeacoffe
 [prt]: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
 [funding]: https://docs.github.com/en/articles/displaying-a-sponsor-button-in-your-repository
 [ivancarlos]: https://ivancarlos.me
-[buymeacoffee]: https://buymeacoffee.com/ivancarlos
-[patreon]: https://www.patreon.com/ivancarlos
-[paypal]: https://icc.gg/donate
-[sponsor]: https://github.com/sponsors/ivancarlosti
