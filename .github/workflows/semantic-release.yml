@@ -1,0 +1,117 @@
+name: 🚀 Semantic Release
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+      - '.github/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.gitignore'
+      - '.dockerignore'
+      - 'LICENSE'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  actions: write       # required to dispatch build.yml workflow
+
+jobs:
+  release:
+    name: 🏷️ Determine Version & Create Release
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.new_release_version }}
+      released: ${{ steps.version.outputs.new_release_published }}
+
+    steps:
+      - name: 📥 Checkout with full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+
+      - name: 📦 Install semantic-release + plugins
+        run: |
+          npm install -g \
+            semantic-release \
+            @semantic-release/exec \
+            @semantic-release/git \
+            @semantic-release/github \
+            conventional-changelog-conventionalcommits
+
+      - name: 🔧 Ensure .releaserc exists
+        run: |
+          if [ ! -f .releaserc ]; then
+            echo 'No .releaserc found — generating default config.'
+            cat > .releaserc << 'RELEASERC'
+          {
+            "branches": ["main"],
+            "plugins": [
+              ["@semantic-release/commit-analyzer", {
+                "preset": "conventionalcommits"
+              }],
+              ["@semantic-release/release-notes-generator", {
+                "preset": "conventionalcommits"
+              }],
+              ["@semantic-release/exec", {
+                "prepareCmd": "echo ${nextRelease.version} > .version && sed -i \"s/\\\"version\\\": \\\".*\\\"/\\\"version\\\": \\\"${nextRelease.version}\\\"/\" manifest.json && sed -i \"s/^ \\* Version: .*/ * Version:           ${nextRelease.version}/\" icc-openid-client.php && sed -i \"s/const VERSION = '.*';/const VERSION = '${nextRelease.version}';/\" icc-openid-client.php"
+              }],
+              ["@semantic-release/git", {
+                "assets": ["manifest.json", "icc-openid-client.php"],
+                "message": "chore(release): bump version to ${nextRelease.version} [skip ci]"
+              }],
+              "@semantic-release/github"
+            ]
+          }
+          RELEASERC
+          else
+            echo 'Using existing .releaserc configuration.'
+          fi
+
+      - name: 🚀 Run semantic-release
+        id: semantic
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release --debug
+
+      - name: 🔍 Read released version
+        id: version
+        if: always() && steps.semantic.outcome == 'success'
+        run: |
+          if [ -f .version ]; then
+            VERSION=$(cat .version)
+            echo "new_release_version=${VERSION}" >> "$GITHUB_OUTPUT"
+            echo "new_release_published=true" >> "$GITHUB_OUTPUT"
+            echo "Detected release version: ${VERSION}"
+          else
+            echo "new_release_published=false" >> "$GITHUB_OUTPUT"
+            echo "No .version file found — no release was published."
+          fi
+
+      - name: 🔔 Trigger package build workflow
+        if: steps.version.outputs.new_release_published == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Dispatching build.yml for version v${{ steps.version.outputs.new_release_version }}"
+          gh workflow run build.yml \
+            -f version="v${{ steps.version.outputs.new_release_version }}"
+
+      - name: 🎯 Trigger WordPress deploy workflow
+        if: steps.version.outputs.new_release_published == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Dispatching wordpress-deploy.yml for version v${{ steps.version.outputs.new_release_version }}"
+          gh workflow run wordpress-deploy.yml \
+            -f version="v${{ steps.version.outputs.new_release_version }}"
